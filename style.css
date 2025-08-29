@@ -98,8 +98,21 @@ padding: 20px;
 }
 .projects a{
     text-decoration: none;
-    display: flex;
+    text-align: center;
+    position: relative;
     justify-content: center;
+    color:rgb(163, 131, 102);
+    display: flex;
+    
+
+
+}
+.projects a:hover{
+    color:peachpuff;
+    border-radius: 5px;
+    text-decoration: underline;
+    
+    
 }
 #conclusion{
     padding: 20px;
@@ -113,6 +126,13 @@ padding: 20px;
     text-align: center;
     font-size: 15px;
     font-weight: 600px;
+}
+.icon_names{
+    padding: 10px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    animation-direction: reverse;
+
 }
 
 
