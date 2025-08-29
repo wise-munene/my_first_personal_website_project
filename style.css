@@ -1,3 +1,118 @@
 body{
-    background: white;
+    background:#111;
+    color: white;
+    margin: 0;
+    font-family:"Montserrat", sans-serif;
+
+}  
+/*wise's image*/
+.wise.picture{
+flex: 1;
+text-align: right;
 }
+.wise.picture img{
+    max-width: 450px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+
+/*navigation bar*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #111;
+    padding: 15px 40px;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+}
+.navbar li{
+    margin-left: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: 400;
+}
+.navbar a:hover{
+    background-color:peachpuff;
+    color: #111;
+}
+
+/*headings*/
+.intro{
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+.intro-text h3{
+    color: peachpuff;
+    margin:5px;
+    font-weight: 600;
+}
+.intro-text p{
+    font-size: 15px;
+    font-weight: 600;
+}
+/* about me*/
+.about{
+    background-color:#0f0e0e;
+    padding: 20px;
+}
+.about h3{
+    color: peachpuff;
+    text-align: center;
+}
+  
+.about h2{
+    margin: 10px;
+    text-align: center;
+}
+.about p{
+    font-size: 15px;
+    font-weight:600;
+    text-align: center;
+    padding: 20px;
+}
+/*accomplishments and projects*/
+.projects{
+background-color: #0f0e0e;
+padding: 20px;
+}
+.projects h2{
+    text-align: center;
+    color: peachpuff;
+    margin: 10px;
+}
+.projects p{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;   
+}
+.projects a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+#conclusion{
+    padding: 20px;
+}
+#conclusion h2{
+    color: peachpuff;
+    text-align: center;
+    padding: 20px;
+}
+#conclusion p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600px;
+}
+
+
